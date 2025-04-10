@@ -13,7 +13,7 @@ RIVE4JUCEAudioProcessorEditor::~RIVE4JUCEAudioProcessorEditor() {}
 
 void RIVE4JUCEAudioProcessorEditor::paint(juce::Graphics& g) {
     g.fillAll(getLookAndFeel().findColour(juce::ResizableWindow::backgroundColourId));
-    riveRenderer.draw(g);
+//    riveRenderer.draw(g); // !J! What is the correct method to use here?
 }
 
 void RIVE4JUCEAudioProcessorEditor::resized() {

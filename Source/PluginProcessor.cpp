@@ -18,4 +18,11 @@ juce::AudioProcessorEditor* RIVE4JUCEAudioProcessor::createEditor() {
     return new RIVE4JUCEAudioProcessorEditor(*this);
 }
 
-JUCE_CREATE_PLUGIN(RIVE4JUCEAudioProcessor, "RIVE4JUCE", "Rive", "R4JD", "DemoCorp")
+
+// This creates new instances of the plugin..
+AudioProcessor *JUCE_CALLTYPE createPluginFilter() {
+    return new RIVE4JUCEAudioProcessor();
+}
+
+
+
