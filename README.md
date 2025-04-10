@@ -1,2 +1,3 @@
 # RIVE4JUCE
-An example/template JUCE project with integrated RIVE GUI.
+
+A not-yet-working example/template JUCE project with integrated RIVE GUI.

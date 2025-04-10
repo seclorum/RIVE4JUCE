@@ -1,0 +1,12 @@
+To complete this demo, add a PulseCircle.riv file to this Assets directory:
+
+1. Visit https://rive.app/editor/
+2. Create a new file named "PulseCircle"
+3. Draw a red circle (100x100 pixels)
+4. Create an animation named "Pulse":
+   - Frame 0: Scale 0.5
+   - Frame 30: Scale 1.5
+   - Frame 60: Scale 0.5
+   - Enable looping
+5. Export as binary (PulseCircle.riv)
+6. Place the file here as "PulseCircle.riv"
